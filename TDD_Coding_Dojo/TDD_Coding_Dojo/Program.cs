@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TDD_Coding_Dojo
+﻿namespace TDD_Coding_Dojo
 {
-    class Program
+     static class Program
     {
         static void Main(string[] args)
         {
+            SauceShopping shop = new SauceShopping();
+            int ketchup = 50;
+            int mustard = 25;
+            int mayonnaise = 1;
+
+            shop.Purchase(ketchup, mustard, mayonnaise);
         }
     }
 }
