@@ -19,7 +19,6 @@ namespace TDD_Coding_Dojo
         /// <param name="mustard">The quantity of mustard being purchased.</param>
         /// <param name="mayonnaise">The quantity of mayonnaise being purchased.</param>
         /// <returns>The total cost after applying any applicable discounts.</returns>
-
         public int Amount(int ketchup, int mustard, int mayonnaise)
         {
             if (ketchup >= 50 || mustard >= 50 || mayonnaise >= 50)
